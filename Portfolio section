@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 /* Center Portfolio section text */
 #portfolio {
   text-align: center;
@@ -18,3 +19,4 @@
   display: block;
   margin: 0 auto;
 }
+</html>
