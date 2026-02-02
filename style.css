@@ -1,33 +1,28 @@
-body {
-  background: #eae2b7;
-}
-
-a {
-  color: #d62828;
-}
-
-a:hover {
-  color: #f77f00;
-}
 #about {
-  text-align: center;
-}
-#about img {
-  display: block;
-  margin: 0 auto;
-}
-#about img {
-  width: 200px;          /* optional, but helps ensure square */
-  height: 200px;         /* optional, but helps ensure square */
-  object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid #003049;
-}
-#portfolio {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
 }
 
-#portfolio img {
-  display: block;
-  margin: 0 auto;
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 800px;
+}
+
+#about h2 {
+  font-size: 2rem;
+}
+
+#about h3 {
+  font-size: 1.25rem;
+}
+
+#about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
