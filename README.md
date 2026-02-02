@@ -11,7 +11,7 @@ The project was built as a capstone exercise to demonstrate proper HTML structur
 View the published site here:  
 https://mealy2010.github.io/PeteThinkful/
 
-https://mealy2010.github.io/PeteThinkful/
+
 ---
 
 ## 📁 Project Structure
