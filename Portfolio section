@@ -1,22 +1,15 @@
-<!DOCTYPE html>
-/* Center Portfolio section text */
-#portfolio {
-  text-align: center;
-}
+<section id="portfolio">
+  <h2>Portfolio</h2>
 
-/* Portfolio heading */
-#portfolio h2 {
-  font-size: 2rem;
-}
+  <div class="portfolio-item">
+    <h3>Abstract Art Project</h3>
+    <img src="images/project1.png" alt="Abstract art project">
+    <p>A collection of abstract pieces exploring color, texture, and emotion.</p>
+  </div>
 
-/* Project titles */
-#portfolio h3 {
-  font-size: 1.25rem;
-}
-
-/* Center project images */
-#portfolio img {
-  display: block;
-  margin: 0 auto;
-}
-</html>
+  <div class="portfolio-item">
+    <h3>Street Graffiti Art</h3>
+    <img src="images/project2.png" alt="Street graffiti art project">
+    <p>Urban-inspired graffiti artwork created using mixed media techniques.</p>
+  </div>
+</section>
