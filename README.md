@@ -9,7 +9,7 @@ The project was built as a capstone exercise to demonstrate proper HTML structur
 ## 🔗 Live Site
 
 View the published site here:  
-**https://your-username.github.io/your-repo-name/**
+https://mealy2010.github.io/PeteThinkful/
 
 _(Replace with your actual GitHub Pages URL)_
 
