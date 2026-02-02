@@ -1,15 +1,8 @@
-#about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  text-align: center; /* if mockup centers text */
-}
 <section id="about">
   <h2>About</h2>
 
   <div class="about-content">
-    <img src="images/pete.png" alt="Pete">
+    <img src="images/pete.png" alt="Pete" />
 
     <div class="about-text">
       <h3>Hi! I’m Pete</h3>
@@ -23,4 +16,10 @@
       <h3>Pete’s Background</h3>
 
       <ul>
-        <li
+        <li>Producing abstract art</li>
+        <li>Creating street graffiti art</li>
+        <li>Connecting with like-minded artists</li>
+      </ul>
+    </div>
+  </div>
+</section>
