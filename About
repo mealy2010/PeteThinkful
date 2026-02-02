@@ -5,3 +5,22 @@
   gap: 2rem;
   text-align: center; /* if mockup centers text */
 }
+<section id="about">
+  <h2>About</h2>
+
+  <div class="about-content">
+    <img src="images/pete.png" alt="Pete">
+
+    <div class="about-text">
+      <h3>Hi! I’m Pete</h3>
+
+      <p>
+        I’m an artist who loves expressing creativity through different mediums.
+        <a href="#contact">contact me</a>
+        if you’d like to work together.
+      </p>
+
+      <h3>Pete’s Background</h3>
+
+      <ul>
+        <li
