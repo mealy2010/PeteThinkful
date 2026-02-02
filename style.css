@@ -1,6 +1,56 @@
+/* Basic page styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header + Nav alignment */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+/* Section spacing */
+section {
+  padding: 3rem 1rem;
+}
+
+/* ABOUT section */
+#about h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#about h3 {
+  font-size: 1.25rem;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* PORTFOLIO section */
 #portfolio {
   text-align: center;
-  padding: 3rem 1rem;
 }
 
 #portfolio h2 {
@@ -12,7 +62,8 @@
 }
 
 .portfolio-item {
-  margin-bottom: 3rem;
+  margin: 2rem auto;
+  max-width: 700px;
 }
 
 .portfolio-item img {
@@ -20,3 +71,17 @@
   height: auto;
 }
 
+/* CONTACT section */
+#contact {
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+}
+
+/* Footer alignment */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+}
