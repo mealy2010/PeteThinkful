@@ -11,12 +11,11 @@ body {
 
 /* Header + Nav alignment */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
   padding: 1rem 2rem;
   background-color: #ffffff;
 }
+
 
 nav a {
   margin-left: 1rem;
