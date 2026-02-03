@@ -81,6 +81,9 @@ section {
   max-width: 100%;
   height: auto;
 }
+#contact {
+  text-align: center;
+}
 
 /* CONTACT section */
 #contact {
