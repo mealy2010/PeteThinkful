@@ -77,4 +77,14 @@ The Git commit history reflects consistent progress throughout the development o
 Replit screenshots have been included to demonstrate the development process. The screenshots show the project files within the Replit editor, the version history, and the running application. These screenshots provide visual confirmation that the project was actively developed and tested within the Replit environment, which supports the overall evaluation of the submission.
 
 Overall, the project demonstrates appropriate documentation, effective use of Git for version control, and sufficient evidence of development through Replit, aligning with Chegg Skills project submission expectations.
+## 📸 Replit Screenshots
+
+### Replit Editor
+![Replit Editor](screenshots/replit-editor.png)
+
+### Version History
+![Version History](screenshots/replit-version-history.png)
+
+### Running Application
+![Running Application](screenshots/replit-running-app.png)
 
