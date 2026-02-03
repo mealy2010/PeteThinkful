@@ -2,7 +2,8 @@
   <h2>About</h2>
 
   <div class="about-content">
-    <img src="images/pete.png" alt="Pete" />
+    <img class="image-circle" src="images/pete.png" alt="Pete" />
+
 
     <div class="about-text">
       <h3>Hi! I’m Pete</h3>
