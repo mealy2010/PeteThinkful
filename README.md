@@ -7,6 +7,8 @@ The project was built as a capstone exercise to demonstrate proper HTML structur
 ---
 <img width="884" height="540" alt="screenshotsreplit-version-history" src="https://github.com/user-attachments/assets/20ed5d49-1491-4995-a9ff-948a21810cbc" />
 <img width="814" height="588" alt="replit-version-history" src="https://github.com/user-attachments/assets/77b93e16-1413-44ca-96bd-f522259ef7b8" />
+<img width="698" height="574" alt="replit-version-history1" src="https://github.com/user-attachments/assets/3a6f60c3-ef6c-4fb5-92a3-afe98735d1e0" />
+<img width="814" height="588" alt="replit-version-history png" src="https://github.com/user-attachments/assets/9e66c007-3965-4797-8ec2-ca530e41b3db" />
 
 
 ## 🔗 Live Site
