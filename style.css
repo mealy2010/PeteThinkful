@@ -24,6 +24,9 @@ nav a {
 section {
   padding: 3rem 1rem;
 }
+#about {
+  text-align: center;
+}
 
 /* ABOUT section */
 #about h2 {
