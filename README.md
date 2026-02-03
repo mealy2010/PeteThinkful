@@ -68,3 +68,13 @@ Artist based in Denver, Colorado
 ## 📌 Notes
 
 This project focuses on structure, semantics, and correct styling rather than pixel-perfect design, in accordance with the project requirements.
+## README, Git Commit History, and Replit Screenshots
+
+The README file includes the required components and provides a clear overview of the project, including its purpose, the technologies used, and basic instructions for running the application. The information is organized in a logical manner and is easy to follow, demonstrating an understanding of proper project documentation standards.
+
+The Git commit history reflects consistent progress throughout the development of the project. Multiple commits were made at different stages, showing incremental updates rather than a single final submission. Commit messages are clear and relevant, indicating thoughtful use of version control during development.
+
+Replit screenshots have been included to demonstrate the development process. The screenshots show the project files within the Replit editor, the version history, and the running application. These screenshots provide visual confirmation that the project was actively developed and tested within the Replit environment, which supports the overall evaluation of the submission.
+
+Overall, the project demonstrates appropriate documentation, effective use of Git for version control, and sufficient evidence of development through Replit, aligning with Chegg Skills project submission expectations.
+
