@@ -2,12 +2,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  body {
-  margin: 0;
-  font-family: Arial, sans-serif;
   background-color: #eae2b7;
 }
-
 
 /* Header + Nav alignment */
 header {
@@ -16,22 +12,31 @@ header {
   background-color: #ffffff;
 }
 
+/* Anchor colors */
+a:link {
+  color: #d62828;
+}
 
+a:hover {
+  color: #f77f00;
+}
+
+/* Nav spacing */
 nav a {
   margin-left: 1rem;
   text-decoration: none;
-  color: #000000;
 }
 
 /* Section spacing */
 section {
   padding: 3rem 1rem;
 }
+
+/* ABOUT section */
 #about {
   text-align: center;
 }
 
-/* ABOUT section */
 #about h2 {
   font-size: 2.5rem;
 }
@@ -39,7 +44,6 @@ section {
 #about h3 {
   font-size: 1.5rem;
 }
-
 
 .about-content {
   display: flex;
@@ -49,6 +53,7 @@ section {
   max-width: 900px;
   margin: 0 auto;
 }
+
 .image-circle {
   width: 200px;
   height: 200px;
@@ -58,9 +63,6 @@ section {
   display: block;
   margin: 0 auto;
 }
-
-
-
 
 /* PORTFOLIO section */
 #portfolio {
@@ -75,18 +77,17 @@ section {
   font-size: 1.5rem;
 }
 
+/* Center portfolio images */
+#portfolio img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
 
 .portfolio-item {
   margin: 2rem auto;
   max-width: 700px;
-}
-
-.portfolio-item img {
-  max-width: 100%;
-  height: auto;
-}
-#contact {
-  text-align: center;
 }
 
 /* CONTACT section */
@@ -104,4 +105,6 @@ footer {
   padding: 1.5rem;
   background-color: #ffffff;
 }
+
+
 
