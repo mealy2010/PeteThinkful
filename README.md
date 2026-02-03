@@ -5,6 +5,8 @@ This project is a personal portfolio website for Pete Thinkful, an artist based 
 The project was built as a capstone exercise to demonstrate proper HTML structure, semantic markup, and CSS styling.
 
 ---
+<img width="884" height="540" alt="screenshotsreplit-version-history" src="https://github.com/user-attachments/assets/20ed5d49-1491-4995-a9ff-948a21810cbc" />
+<img width="814" height="588" alt="replit-version-history" src="https://github.com/user-attachments/assets/77b93e16-1413-44ca-96bd-f522259ef7b8" />
 
 
 ## 🔗 Live Site
