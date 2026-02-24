@@ -1,110 +1,90 @@
-/* Basic page styling */
+/* Simple base reset */
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #eae2b7;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
 }
 
-/* Header + Nav alignment */
-header {
+/* Center everything like your screenshot */
+.site-header {
   text-align: center;
-  padding: 1rem 2rem;
-  background-color: #ffffff;
+  padding: 24px 16px 8px;
 }
 
-/* Anchor colors */
-a:link {
-  color: #d62828;
+.site-title {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
-a:hover {
-  color: #f77f00;
+.divider {
+  padding: 0 12px;
+  font-weight: 400;
 }
 
-/* Nav spacing */
-nav a {
-  margin-left: 1rem;
-  text-decoration: none;
+/* Nav links under the title */
+.site-nav {
+  margin-top: 6px;
 }
 
-/* Section spacing */
-section {
-  padding: 3rem 1rem;
+.site-nav a {
+  margin: 0 10px;
+  color: #7b2c2c;
+  text-decoration: underline;
+  font-size: 16px;
 }
 
-/* ABOUT section */
-#about {
-  text-align: center;
-}
-
-#about h2 {
-  font-size: 2.5rem;
-}
-
-#about h3 {
-  font-size: 1.5rem;
-}
-
-.about-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  max-width: 900px;
+/* Main sections */
+.section {
+  max-width: 760px;
   margin: 0 auto;
+  padding: 8px 16px 30px;
+  text-align: center; /* centers About, Hi I'm Pete, etc. */
 }
 
-.image-circle {
-  width: 200px;
-  height: 200px;
+.section h2 {
+  margin: 18px 0 6px;
+  font-size: 40px;
+}
+
+.section h3 {
+  margin: 0 0 14px;
+  font-size: 26px;
+}
+
+/* Round image with thin border */
+.profile-img {
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
-  border: 2px solid #003049;
+  border: 2px solid #333;
   object-fit: cover;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 12px;
 }
 
-/* PORTFOLIO section */
-#portfolio {
-  text-align: center;
+/* Small line under image */
+.tagline {
+  margin: 6px 0 18px;
+  font-size: 14px;
+  color: #444;
 }
 
-#portfolio h2 {
-  font-size: 2.5rem;
+/* Subheading like “Pete’s Background” */
+.section h4 {
+  margin: 8px 0 10px;
+  font-size: 22px;
 }
 
-#portfolio h3 {
-  font-size: 1.5rem;
+/* Paragraph widths like screenshot */
+.section p {
+  max-width: 560px;
+  margin: 0 auto 16px;
+  font-size: 14px;
+  color: #333;
 }
-
-/* Center portfolio images */
-#portfolio img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
-}
-
-.portfolio-item {
-  margin: 2rem auto;
-  max-width: 700px;
-}
-
-/* CONTACT section */
-#contact {
-  text-align: center;
-}
-
-#contact h2 {
-  font-size: 2rem;
-}
-
-/* Footer alignment */
-footer {
-  text-align: center;
-  padding: 1.5rem;
-  background-color: #ffffff;
-}
-
-
-
