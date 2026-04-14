@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,7 +10,7 @@
 
   <body>
     <header class="site-header">
-      <h1 class="site-title">Pete <span class="divider">|</span> Artist</h1>
+      <h1 class="site-title">Pete <span>|</span> Artist</h1>
 
       <nav class="site-nav">
         <a href="#about">About</a>
@@ -19,14 +20,15 @@
     </header>
 
     <main>
-      <section id="about" class="section about-section">
+      <!-- ABOUT -->
+      <section id="about" class="section">
         <h2>About</h2>
         <h3>Hi! I'm Pete</h3>
 
         <img
-          class="profile-img"
           src="images/pete-thinkful.png"
-          alt="Pete Thinkful standing outdoors in the mountains"
+          alt="Pete Thinkful"
+          class="profile-img"
         />
 
         <p>I'm an artist living in Denver, Colorado.</p>
@@ -61,42 +63,31 @@
 
       <hr />
 
-      <section id="portfolio" class="section portfolio-section">
+      <!-- PORTFOLIO -->
+      <section id="portfolio" class="section">
         <h2>Portfolio</h2>
 
-        <article class="portfolio-item">
+        <article>
           <h3>Abstract Red</h3>
-          <img
-            class="portfolio-img"
-            src="images/abstract-red.png"
-            alt="Abstract Red project"
-          />
+          <img src="images/abstract-red.png" alt="Abstract Red project" />
           <p>
             Vaporware wayfarers heirloom neutra disrupt. Activated charcoal
             waistcoat scenester hell of.
           </p>
         </article>
 
-        <article class="portfolio-item">
+        <article>
           <h3>Spiral Zany</h3>
-          <img
-            class="portfolio-img"
-            src="images/spiral-zany.png"
-            alt="Spiral Zany project"
-          />
+          <img src="images/spiral-zany.png" alt="Spiral Zany project" />
           <p>
             Sriracha portland taxidermy cronut messenger bag, vegan distillery.
             Vaporware kickstarter air plant mumblecore food truck.
           </p>
         </article>
 
-        <article class="portfolio-item">
+        <article>
           <h3>Melted Rainbow</h3>
-          <img
-            class="portfolio-img"
-            src="images/melted-rainbow.png"
-            alt="Melted Rainbow project"
-          />
+          <img src="images/melted-rainbow.png" alt="Melted Rainbow project" />
           <p>
             Edison bulb single-origin coffee snackwave, actually ennui locavore
             shabby chic forage.
@@ -106,7 +97,8 @@
 
       <hr />
 
-      <section id="contact" class="section contact-section">
+      <!-- CONTACT -->
+      <section id="contact" class="section">
         <h2>Contact</h2>
 
         <p>
@@ -118,17 +110,14 @@
             <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
           </li>
           <li>
-            <a href="https://www.instagram.com" target="_blank">Instagram</a>
-          </li>
-          <li>
-            <a href="https://www.pinterest.com" target="_blank">Pinterest</a>
+            <a href="https://github.com/mealy2010" target="_blank">GitHub</a>
           </li>
         </ol>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <p>@ Pete. All rights reserved.</p>
+    <footer>
+      <p>© Pete. All rights reserved.</p>
     </footer>
   </body>
 </html>
