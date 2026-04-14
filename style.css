@@ -10,7 +10,7 @@ body {
   line-height: 1.5;
 }
 
-/* Header + Footer centered */
+/* Header + Footer */
 header,
 footer {
   text-align: center;
@@ -33,7 +33,7 @@ footer {
   text-decoration: underline;
 }
 
-/* Link colors */
+/* Links */
 a:link,
 a:visited {
   color: #d62828;
@@ -61,11 +61,16 @@ h3 {
   font-size: 20px;
 }
 
-/* IMPORTANT: content left aligned */
+/* Keep content left aligned */
 #about,
 #portfolio,
 #contact {
   text-align: left;
+}
+
+/* Center specific headings */
+.center-text {
+  text-align: center;
 }
 
 /* Profile image */
@@ -79,14 +84,13 @@ h3 {
   margin: 15px auto;
 }
 
-/* Portfolio images centered */
+/* Portfolio */
 #portfolio img {
   display: block;
   margin: 10px auto;
   width: 180px;
 }
 
-/* Portfolio titles centered */
 #portfolio h3 {
   text-align: center;
 }
@@ -97,13 +101,9 @@ ol {
   padding-left: 20px;
 }
 
-/* Divider line */
+/* Divider */
 hr {
   width: 50%;
   margin: 40px auto;
   border: 1px solid #003049;
-}
-/* Center specific text only */
-.center-text {
-  text-align: center;
 }
