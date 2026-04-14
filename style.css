@@ -1,4 +1,3 @@
-/* Base reset */
 * {
   box-sizing: border-box;
 }
@@ -6,39 +5,35 @@
 body {
   margin: 0;
   background-color: #eae2b7;
-  color: #264653;
+  color: #003049;
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.5;
 }
 
-/* Header */
-.site-header {
+/* Header + Footer centered */
+header,
+footer {
   text-align: center;
-  padding: 55px 16px 20px;
+  padding: 20px;
 }
 
+/* Title */
 .site-title {
   margin: 0;
-  font-size: 42px;
-  font-weight: normal;
-  color: #3d4f52;
+  font-size: 48px;
 }
 
-.divider {
-  padding: 0 8px;
-}
-
-/* Nav */
+/* Navigation */
 .site-nav {
-  margin-top: 12px;
+  margin-top: 10px;
 }
 
 .site-nav a {
-  margin: 0 12px;
-  font-size: 15px;
+  margin: 0 10px;
   text-decoration: underline;
 }
 
+/* Link colors */
 a:link,
 a:visited {
   color: #d62828;
@@ -49,121 +44,62 @@ a:active {
   color: #f77f00;
 }
 
-/* Main content width */
+/* Sections */
 .section {
-  max-width: 760px;
+  max-width: 700px;
   margin: 0 auto;
-  padding: 20px 16px;
+  padding: 20px;
 }
 
 /* Headings */
-.section h2 {
+h2 {
   text-align: center;
-  font-size: 28px;
-  margin: 0 0 14px;
-  color: #264653;
+  font-size: 32px;
 }
 
-.about-section h3,
-.portfolio-item h3 {
-  text-align: center;
+h3 {
   font-size: 20px;
-  margin: 0 0 16px;
-  color: #264653;
 }
 
-/* About section */
-.about-section {
+/* IMPORTANT: content left aligned */
+#about,
+#portfolio,
+#contact {
   text-align: left;
 }
 
+/* Profile image */
 .profile-img {
-  width: 185px;
-  height: 185px;
-  display: block;
-  margin: 8px auto 26px;
-  border-radius: 50%;
-  border: 3px solid #264653;
-  object-fit: cover;
-}
-
-.about-section p {
-  max-width: 560px;
-  margin: 0 auto 18px;
-  font-size: 14px;
-}
-
-.about-section ul {
-  max-width: 560px;
-  margin: 0 auto 18px;
-  padding-left: 28px;
-  font-size: 14px;
-}
-
-.about-section li {
-  margin-bottom: 2px;
-}
-
-/* Horizontal lines */
-hr {
-  width: 58%;
-  margin: 38px auto;
-  border: 0;
-  border-top: 2px solid #5a5a5a;
-}
-
-/* Portfolio */
-.portfolio-section h2 {
-  margin-bottom: 18px;
-}
-
-.portfolio-item {
-  max-width: 420px;
-  margin: 0 auto 26px;
-  text-align: center;
-}
-
-.portfolio-img {
   width: 180px;
-  height: auto;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid #003049;
+  object-fit: cover;
   display: block;
-  margin: 0 auto 18px;
+  margin: 15px auto;
 }
 
-.portfolio-item p {
-  max-width: 560px;
-  margin: 0 auto 24px;
-  text-align: left;
-  font-size: 14px;
+/* Portfolio images centered */
+#portfolio img {
+  display: block;
+  margin: 10px auto;
+  width: 180px;
 }
 
-/* Contact */
-.contact-section h2 {
+/* Portfolio titles centered */
+#portfolio h3 {
   text-align: center;
 }
 
-.contact-section p {
-  max-width: 560px;
-  margin: 0 auto 14px;
-  font-size: 14px;
-  text-align: left;
+/* Lists */
+ul,
+ol {
+  padding-left: 20px;
 }
 
-.contact-section ol {
-  max-width: 560px;
-  margin: 0 auto;
-  padding-left: 24px;
-  font-size: 14px;
-}
-
-.contact-section li {
-  margin-bottom: 2px;
-}
-
-/* Footer */
-.site-footer {
-  text-align: center;
-  padding: 34px 16px 50px;
-  font-size: 14px;
-  color: #555;
+/* Divider line */
+hr {
+  width: 50%;
+  margin: 40px auto;
+  border: 1px solid #003049;
 }
