@@ -7,14 +7,18 @@ body {
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.5;
+  background-color: #eae2b7;
+  color: #003049;
 }
 
-
-.site-header {
+/* Header and footer centered */
+.site-header,
+footer {
   text-align: center;
   padding: 24px 16px 8px;
 }
 
+/* Main title */
 .site-title {
   margin: 0;
   font-size: 56px;
@@ -34,97 +38,133 @@ body {
 
 .site-nav a {
   margin: 0 10px;
-  color: #7b2c2c;
   text-decoration: underline;
   font-size: 16px;
+}
+
+/* Link colors */
+a:link {
+  color: #d62828;
+}
+
+a:visited {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+a:active {
+  color: #f77f00;
 }
 
 /* Main sections */
 .section {
   max-width: 760px;
   margin: 0 auto;
-  padding: 8px 16px 30px;
-  text-align: center; /* centers About, Hi I'm Pete, etc. */
+  padding: 20px 16px;
 }
 
+/* Section headings */
 .section h2 {
-  margin: 18px 0 6px;
+  margin: 18px 0 12px;
   font-size: 40px;
 }
 
+/* About, Portfolio, and Contact headings centered */
+#about h2,
+#portfolio h2,
+#contact h2 {
+  text-align: center;
+}
+
+/* About and Portfolio content left aligned */
+#about,
+#portfolio,
+#contact {
+  text-align: left;
+}
+
+/* About section subheadings */
 .section h3 {
   margin: 0 0 14px;
   font-size: 26px;
 }
 
-/* Round image with thin border */
-.profile-img {
+/* Round profile image with border */
+.profile-img,
+.image-circle {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  border: 2px solid #333;
+  border: 2px solid #003049;
   object-fit: cover;
   display: block;
   margin: 0 auto 12px;
 }
 
-/* Small line under image */
-.tagline {
-  margin: 6px 0 18px;
-  font-size: 14px;
-  color: #444;
-}
-
-
-.section h4 {
-  margin: 8px 0 10px;
-  font-size: 22px;
-}
-
-
+/* About text */
 .section p {
   max-width: 560px;
-  margin: 0 auto 16px;
+  margin: 0 0 16px;
   font-size: 14px;
   color: #333;
 }
 
-.section {
-  max-width: 760px;
-  margin: 0 auto;
-  padding: 20px 16px;
+/* About list */
+#about ul {
+  max-width: 560px;
+  margin: 0 0 16px 20px;
+  padding-left: 20px;
+}
+
+#about li {
+  margin-bottom: 8px;
+}
+
+/* Portfolio section */
+#portfolio h3 {
   text-align: center;
+  font-size: 22px;
+  margin-top: 30px;
 }
 
-/* Portfolio spacing */
-.portfolio h2 {
-  margin: 10px 0 25px;
-  font-size: 36px;
-}
-
-/* Each portfolio block */
-.portfolio-item {
-  margin: 35px auto 60px; /* creates the big gaps between images */
-  max-width: 520px;
-}
-
-.portfolio-item h3 {
-  margin: 0 0 12px;
-  font-size: 18px;
-}
-
-.portfolio-img {
-  width: 170px;          /* makes it narrow like your screenshot */
-  height: auto;
+#portfolio img {
   display: block;
   margin: 0 auto 12px;
+  width: 170px;
+  height: auto;
 }
 
-/* Paragraph width small & centered */
-.portfolio-item p {
+#portfolio p {
+  max-width: 420px;
+  margin: 0 auto 24px;
   font-size: 12px;
   line-height: 1.6;
   color: #333;
-  max-width: 420px;
-  margin: 0 auto;
+  text-align: left;
+}
+
+/* Contact section */
+#contact ol {
+  max-width: 560px;
+  margin: 0 0 16px 20px;
+  padding-left: 20px;
+}
+
+#contact li {
+  margin-bottom: 8px;
+}
+
+/* Horizontal rules centered and not full width */
+hr {
+  width: 50%;
+  margin: 40px auto;
+  border: 1px solid #003049;
+}
+
+/* Footer */
+footer {
+  padding: 20px 16px;
 }
