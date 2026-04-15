@@ -1,7 +1,9 @@
+/* Reset */
 * {
   box-sizing: border-box;
 }
 
+/* Body */
 body {
   margin: 0;
   background-color: #eae2b7;
@@ -59,14 +61,10 @@ h2 {
 
 h3 {
   font-size: 20px;
+  text-align: center; /* ensures ALL h3 are centered */
 }
 
-/* About section */
-#about h3 {
-  text-align: center;
-}
-
-/* Center specific headings */
+/* Center helper */
 .center-text {
   text-align: center;
 }
@@ -82,15 +80,18 @@ h3 {
   margin: 15px auto;
 }
 
-/* Portfolio */
-#portfolio h3 {
+/* Portfolio section */
+#portfolio {
   text-align: center;
 }
 
 #portfolio img {
   display: block;
-  margin: 10px auto;
-  width: 180px;
+  margin: 15px auto;
+  width: 200px;      /* slightly larger */
+  height: 200px;     /* makes all images same size */
+  object-fit: cover; /* prevents stretching */
+  border-radius: 8px; /* subtle polish */
 }
 
 /* Lists */
